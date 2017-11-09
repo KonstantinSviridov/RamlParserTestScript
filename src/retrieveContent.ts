@@ -12,6 +12,10 @@ mkdirp.sync(targetPath);
 
 export function operate() {
 
+    if(fs.existsSync(path.resolve(targetPath,"content"))){
+        return Promise.resolve();
+    }
+
     let exportUrl = utils.getContentURI();
     if(!exportUrl){
         console.warn("Content URI is not provided");

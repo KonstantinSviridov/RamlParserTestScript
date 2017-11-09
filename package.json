@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/script.js",
   "scripts": {
-    "travisMain": "node dist/script.js --onlySufficient --limitTime",
+    "travisMain": "node dist/script.js --onlySufficient --commit --limitTime",
     "prepareParsers": "node dist/prepareParsers.js",
     "build": "rimraf dist && tsc",
     "compare": "node dist/script.js",

@@ -11,14 +11,14 @@ var oldParser = require("raml-parser");
 import retrieve = require("./retrieveContent");
 
 export const CLI_ARG_NAME_ONLY_SUFFICIENT = "--onlySufficient";
-export const CLI_ARG_NAME_COMMIT_CACHE = "--commitCache";
+export const CLI_ARG_NAME_COMMIT = "--commit";
 export const CLI_ARG_NAME_LIMIT_TIME = "--limitTime";
 const DEFAULT_TIME_LIMIT = 20*60*1000;
 
 function operate():Promise<any>{
 
     let onlySufficient = devEnvInstaller.utils.hasCliArgument(CLI_ARG_NAME_ONLY_SUFFICIENT);
-    let doCommitCache = devEnvInstaller.utils.hasCliArgument(CLI_ARG_NAME_COMMIT_CACHE);
+    let doCommit = devEnvInstaller.utils.hasCliArgument(CLI_ARG_NAME_COMMIT);
     let limitTime = devEnvInstaller.utils.hasCliArgument(CLI_ARG_NAME_LIMIT_TIME);
     if(onlySufficient) {
         let commitId = utils.getTargetCommitId();
@@ -210,7 +210,7 @@ function operate():Promise<any>{
     return processRamlFile(startIndex,limitTime).then(nextFile=>{
 
         utils.saveReportObject(reportObject);
-        if(nextFile || (doCommitCache && (cacheDirty||reportDirty))){
+        if(doCommit){
             let rootDir = testUtils.rootDir(__dirname);
             console.log("Script: set SSH URL");
             testUtils.setSSHUrl(rootDir);
@@ -220,9 +220,9 @@ function operate():Promise<any>{
             console.log("Script: Configure security");
             testUtils.configureSecurity(homeDir);
             let commitMessage = "";
-            if (cacheDirty) {
-                commitMessage += utils.TRAVIS_COMMIT_CACHE_UPDATE + "\n";
-            }
+            // if (cacheDirty) {
+            //     commitMessage += utils.TRAVIS_COMMIT_CACHE_UPDATE + "\n";
+            // }
             if (nextFile) {
                 let targetCommitId = utils.getTargetCommitId();
                 let targetBranchId = utils.getTargetBranchId();
