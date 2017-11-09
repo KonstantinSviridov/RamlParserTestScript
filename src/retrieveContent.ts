@@ -7,7 +7,7 @@ import utils = require("./utils");
 
 const requestPromise = require("request-promise-native");
 
-let targetPath = __dirname;
+let targetPath = path.resolve(__dirname,"../");
 mkdirp.sync(targetPath);
 
 export function operate() {
@@ -15,6 +15,9 @@ export function operate() {
     let exportUrl = utils.getContentURI();
     if(!exportUrl){
         console.warn("Content URI is not provided");
+    }
+    else{
+        console.log("Starting download: " + exportUrl);
     }
 
     return requestPromise(exportUrl, {encoding: null}).then(download => {
