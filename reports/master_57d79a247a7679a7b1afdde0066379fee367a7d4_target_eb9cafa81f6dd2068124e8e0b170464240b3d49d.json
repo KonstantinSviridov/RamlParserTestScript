@@ -1,0 +1,521 @@
+{
+  "org_014239c4-ba03-41f8-b0a6-d50957137a6d": {
+    "api_56689_ver_58811": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Metadata response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 2,
+              "position": 248
+            },
+            "end": {
+              "line": 8,
+              "column": 29,
+              "position": 275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Screen Tags response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 2,
+              "position": 754
+            },
+            "end": {
+              "line": 33,
+              "column": 32,
+              "position": 784
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 2,
+              "position": 1186
+            },
+            "end": {
+              "line": 54,
+              "column": 36,
+              "position": 1220
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 83,
+              "column": 2,
+              "position": 1811
+            },
+            "end": {
+              "line": 83,
+              "column": 37,
+              "position": 1846
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 2,
+              "position": 2196
+            },
+            "end": {
+              "line": 101,
+              "column": 46,
+              "position": 2240
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 131,
+              "column": 2,
+              "position": 2870
+            },
+            "end": {
+              "line": 131,
+              "column": 47,
+              "position": 2915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 151,
+              "column": 4,
+              "position": 3362
+            },
+            "end": {
+              "line": 151,
+              "column": 15,
+              "position": 3373
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 159,
+              "column": 6,
+              "position": 3658
+            },
+            "end": {
+              "line": 159,
+              "column": 17,
+              "position": 3669
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 172,
+              "column": 6,
+              "position": 4056
+            },
+            "end": {
+              "line": 172,
+              "column": 17,
+              "position": 4067
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 188,
+              "column": 6,
+              "position": 4596
+            },
+            "end": {
+              "line": 188,
+              "column": 17,
+              "position": 4607
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Metadata response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 2,
+              "position": 248
+            },
+            "end": {
+              "line": 8,
+              "column": 29,
+              "position": 275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Screen Tags response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 2,
+              "position": 754
+            },
+            "end": {
+              "line": 33,
+              "column": 32,
+              "position": 784
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 2,
+              "position": 1186
+            },
+            "end": {
+              "line": 54,
+              "column": 36,
+              "position": 1220
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 83,
+              "column": 2,
+              "position": 1811
+            },
+            "end": {
+              "line": 83,
+              "column": 37,
+              "position": 1846
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 2,
+              "position": 2196
+            },
+            "end": {
+              "line": 101,
+              "column": 46,
+              "position": 2240
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 131,
+              "column": 2,
+              "position": 2870
+            },
+            "end": {
+              "line": 131,
+              "column": 47,
+              "position": 2915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 151,
+              "column": 4,
+              "position": 3362
+            },
+            "end": {
+              "line": 151,
+              "column": 15,
+              "position": 3373
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 159,
+              "column": 6,
+              "position": 3658
+            },
+            "end": {
+              "line": 159,
+              "column": 17,
+              "position": 3669
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 172,
+              "column": 6,
+              "position": 4056
+            },
+            "end": {
+              "line": 172,
+              "column": 17,
+              "position": 4067
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 188,
+              "column": 6,
+              "position": 4596
+            },
+            "end": {
+              "line": 188,
+              "column": 17,
+              "position": 4607
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_0175dd81-5fe1-462c-9df8-aa0e389689ca": {
+    "api_43943_ver_45555": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 22,
+              "position": 983
+            },
+            "end": {
+              "line": 30,
+              "column": 23,
+              "position": 984
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1190
+            },
+            "end": {
+              "line": 38,
+              "column": 17,
+              "position": 1201
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 22,
+              "position": 1814
+            },
+            "end": {
+              "line": 55,
+              "column": 23,
+              "position": 1815
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 22,
+              "position": 983
+            },
+            "end": {
+              "line": 30,
+              "column": 23,
+              "position": 984
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1190
+            },
+            "end": {
+              "line": 38,
+              "column": 17,
+              "position": 1201
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 22,
+              "position": 1814
+            },
+            "end": {
+              "line": 55,
+              "column": 23,
+              "position": 1815
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_03d96b6b-cf0d-4cb4-8757-dee719dca6e6": {
+    "api_12846_ver_13352": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "MISSING_REQUIRED_PROPERTY",
+          "message": "Missing required property 'title'",
+          "path": "sailaja.raml",
+          "range": {
+            "start": {
+              "line": 1,
+              "column": 0,
+              "position": 11
+            },
+            "end": {
+              "line": 16,
+              "column": 10,
+              "position": 357
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "MISSING_REQUIRED_PROPERTY",
+          "message": "Missing required property 'title'",
+          "path": "sailaja.raml",
+          "range": {
+            "start": {
+              "line": 1,
+              "column": 0,
+              "position": 11
+            },
+            "end": {
+              "line": 16,
+              "column": 10,
+              "position": 357
+            }
+          }
+        }
+      ]
+    }
+  }
+}

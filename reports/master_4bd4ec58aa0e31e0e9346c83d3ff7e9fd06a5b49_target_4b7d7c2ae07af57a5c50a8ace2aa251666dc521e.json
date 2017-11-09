@@ -1,0 +1,631 @@
+{
+  "org_b1efde63-bf5a-4017-a51f-af9f9092884a": {
+    "api_50543_ver_52495": {
+      "oldParserErrors": "cannot read /x-auth-key.yaml (Error: ENOENT, open '/x-auth-key.yaml')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_b3b3ea59-1313-4b44-baa7-a38b2950df7c": {
+    "api_53130_ver_55233": {
+      "oldParserErrors": "while reading file\nnon printable characters are not allowed column: 27\n  in \"/home/travis/build/KonstantinSviridov/PlatformSnapshot/platform/org_b3b3ea59-1313-4b44-baa7-a38b2950df7c/api_53130_ver_55233/AbsenceType/GET.raml\", line 26, column 27:\n                    <type id=â56â >\n                              ^",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_b62256a0-a817-4dfb-99e4-353a1be946f5": {
+    "api_20931_ver_22335": {
+      "diff": [
+        {
+          "path": "/errors",
+          "comment": "Array lengths mismatch",
+          "master": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-params'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 11,
+                  "position": 2132
+                },
+                "end": {
+                  "line": 42,
+                  "column": 29,
+                  "position": 2150
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-json'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 31,
+                  "position": 2152
+                },
+                "end": {
+                  "line": 42,
+                  "column": 63,
+                  "position": 2184
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-xml'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 65,
+                  "position": 2186
+                },
+                "end": {
+                  "line": 42,
+                  "column": 96,
+                  "position": 2217
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'need to fill in schema here\n'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 66,
+                  "column": 14,
+                  "position": 3216
+                },
+                "end": {
+                  "line": 66,
+                  "column": 20,
+                  "position": 3222
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'n'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 69,
+                  "column": 16,
+                  "position": 3311
+                },
+                "end": {
+                  "line": 69,
+                  "column": 17,
+                  "position": 3312
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-params'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 11,
+                  "position": 4653
+                },
+                "end": {
+                  "line": 92,
+                  "column": 29,
+                  "position": 4671
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-json'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 31,
+                  "position": 4673
+                },
+                "end": {
+                  "line": 92,
+                  "column": 63,
+                  "position": 4705
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-xml'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 65,
+                  "position": 4707
+                },
+                "end": {
+                  "line": 92,
+                  "column": 96,
+                  "position": 4738
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'need to fill in schema here\n'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 116,
+                  "column": 14,
+                  "position": 5735
+                },
+                "end": {
+                  "line": 116,
+                  "column": 20,
+                  "position": 5741
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'n'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 119,
+                  "column": 16,
+                  "position": 5830
+                },
+                "end": {
+                  "line": 119,
+                  "column": 17,
+                  "position": 5831
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Missing required property: UPC",
+              "path": "giftcard-allocation-request-200-example.json",
+              "range": {
+                "start": {
+                  "line": 14,
+                  "column": 6,
+                  "position": 389
+                },
+                "end": {
+                  "line": 22,
+                  "column": 7,
+                  "position": 621
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Missing required property: UPC",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 96,
+                      "column": 11,
+                      "position": 4857
+                    },
+                    "end": {
+                      "line": 96,
+                      "column": 18,
+                      "position": 4864
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type string but found type null",
+              "path": "giftcard-allocation-response-200-example.json",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 8,
+                  "position": 829
+                },
+                "end": {
+                  "line": 24,
+                  "column": 25,
+                  "position": 846
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Expected type string but found type null",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 107,
+                      "column": 14,
+                      "position": 5371
+                    },
+                    "end": {
+                      "line": 107,
+                      "column": 21,
+                      "position": 5378
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type string but found type null",
+              "path": "giftcard-build-response-200-example.json",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 8,
+                  "position": 826
+                },
+                "end": {
+                  "line": 24,
+                  "column": 25,
+                  "position": 843
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Expected type string but found type null",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 57,
+                      "column": 14,
+                      "position": 2822
+                    },
+                    "end": {
+                      "line": 57,
+                      "column": 21,
+                      "position": 2829
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            }
+          ],
+          "inspected": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-params'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 11,
+                  "position": 2132
+                },
+                "end": {
+                  "line": 42,
+                  "column": 29,
+                  "position": 2150
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-json'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 31,
+                  "position": 2152
+                },
+                "end": {
+                  "line": 42,
+                  "column": 63,
+                  "position": 2184
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-xml'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 42,
+                  "column": 65,
+                  "position": 2186
+                },
+                "end": {
+                  "line": 42,
+                  "column": 96,
+                  "position": 2217
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'need to fill in schema here\n'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 66,
+                  "column": 14,
+                  "position": 3216
+                },
+                "end": {
+                  "line": 66,
+                  "column": 20,
+                  "position": 3222
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'n'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 69,
+                  "column": 16,
+                  "position": 3311
+                },
+                "end": {
+                  "line": 69,
+                  "column": 17,
+                  "position": 3312
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-params'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 11,
+                  "position": 4653
+                },
+                "end": {
+                  "line": 92,
+                  "column": 29,
+                  "position": 4671
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-json'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 31,
+                  "position": 4673
+                },
+                "end": {
+                  "line": 92,
+                  "column": 63,
+                  "position": 4705
+                }
+              }
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized trait: 'with-common-error-responses-xml'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 65,
+                  "position": 4707
+                },
+                "end": {
+                  "line": 92,
+                  "column": 96,
+                  "position": 4738
+                }
+              }
+            },
+            {
+              "code": "EXAMPLE_SCHEMA_FAILURE",
+              "message": "Example does not conform to schema: !_PERF_!",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 110,
+                  "column": 14,
+                  "position": 5542
+                },
+                "end": {
+                  "line": 110,
+                  "column": 21,
+                  "position": 5549
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'need to fill in schema here\n'.",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 116,
+                  "column": 14,
+                  "position": 5735
+                },
+                "end": {
+                  "line": 116,
+                  "column": 20,
+                  "position": 5741
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'n'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 119,
+                  "column": 16,
+                  "position": 5830
+                },
+                "end": {
+                  "line": 119,
+                  "column": 17,
+                  "position": 5831
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Missing required property: UPC",
+              "path": "giftcard-allocation-request-200-example.json",
+              "range": {
+                "start": {
+                  "line": 14,
+                  "column": 6,
+                  "position": 389
+                },
+                "end": {
+                  "line": 22,
+                  "column": 7,
+                  "position": 621
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Missing required property: UPC",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 96,
+                      "column": 11,
+                      "position": 4857
+                    },
+                    "end": {
+                      "line": 96,
+                      "column": 18,
+                      "position": 4864
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type string but found type null",
+              "path": "giftcard-allocation-response-200-example.json",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 8,
+                  "position": 829
+                },
+                "end": {
+                  "line": 24,
+                  "column": 25,
+                  "position": 846
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Expected type string but found type null",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 107,
+                      "column": 14,
+                      "position": 5371
+                    },
+                    "end": {
+                      "line": 107,
+                      "column": 21,
+                      "position": 5378
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            },
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type string but found type null",
+              "path": "giftcard-build-response-200-example.json",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 8,
+                  "position": 826
+                },
+                "end": {
+                  "line": 24,
+                  "column": 25,
+                  "position": 843
+                }
+              },
+              "isWarning": true,
+              "trace": [
+                {
+                  "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+                  "message": "Content is not valid according to schema: Expected type string but found type null",
+                  "path": "api.raml",
+                  "range": {
+                    "start": {
+                      "line": 57,
+                      "column": 14,
+                      "position": 2822
+                    },
+                    "end": {
+                      "line": 57,
+                      "column": 21,
+                      "position": 2829
+                    }
+                  },
+                  "isWarning": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_b639f2a1-97a6-4242-8480-f63646b23ba2": {
+    "api_23583_ver_25077": {
+      "oldParserErrors": "found character \t that cannot start any token",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "org_b1444ccd-aebb-4ad4-8fd2-8f373c433711": {
+    "api_35420_ver_72483": {
+      "diff": [
+        {
+          "path": "/specification/traits[4]/geo_filter/queryParameters/radius/maximum",
+          "comment": "Defined/undefined mismatch",
+          "master": null,
+          "inspected": null
+        }
+      ]
+    },
+    "api_35420_ver_74888": {
+      "diff": [
+        {
+          "path": "/specification/traits[4]/geo_filter/queryParameters/radius/maximum",
+          "comment": "Defined/undefined mismatch",
+          "master": null,
+          "inspected": null
+        }
+      ]
+    },
+    "api_35420_ver_77911": {
+      "diff": [
+        {
+          "path": "/specification/traits[4]/geo_filter/queryParameters/radius/maximum",
+          "comment": "Defined/undefined mismatch",
+          "master": null,
+          "inspected": null
+        }
+      ]
+    },
+    "api_35420_ver_80059": {
+      "diff": [
+        {
+          "path": "/specification/traits[4]/geo_filter/queryParameters/radius/maximum",
+          "comment": "Defined/undefined mismatch",
+          "master": null,
+          "inspected": null
+        }
+      ]
+    }
+  },
+  "org_b18d67b6-01eb-4c86-9343-3bf2144bd2c1": {
+    "api_58762_ver_61074": {
+      "oldParserErrors": "cannot read /schemas/fact.json (Error: ENOENT, open '/schemas/fact.json')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_b1efde63-bf5a-4017-a51f-af9f9092884a": {
+    "api_50543_ver_52495": {
+      "oldParserErrors": "cannot read /x-auth-key.yaml (Error: ENOENT, open '/x-auth-key.yaml')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_b3b3ea59-1313-4b44-baa7-a38b2950df7c": {
+    "api_53130_ver_55233": {
+      "oldParserErrors": "while reading file\nnon printable characters are not allowed column: 27\n  in \"/home/travis/build/KonstantinSviridov/PlatformSnapshot/platform/org_b3b3ea59-1313-4b44-baa7-a38b2950df7c/api_53130_ver_55233/AbsenceType/GET.raml\", line 26, column 27:\n                    <type id=â56â >\n                              ^",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_b639f2a1-97a6-4242-8480-f63646b23ba2": {
+    "api_23583_ver_25077": {
+      "oldParserErrors": "found character \t that cannot start any token",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  }
+}

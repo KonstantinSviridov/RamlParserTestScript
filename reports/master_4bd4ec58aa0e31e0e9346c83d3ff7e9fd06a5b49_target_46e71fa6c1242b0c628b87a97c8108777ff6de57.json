@@ -1,0 +1,4485 @@
+{
+  "org_c6354a2b-2e9b-47fa-89dd-f91f21ea8d3b": {
+    "api_39674_ver_41246": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: '10', '30', '50'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 105,
+              "column": 8,
+              "position": 5337
+            },
+            "end": {
+              "line": 105,
+              "column": 15,
+              "position": 5344
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: '10', '30', '50'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 105,
+              "column": 8,
+              "position": 5337
+            },
+            "end": {
+              "line": 105,
+              "column": 15,
+              "position": 5344
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_c6b61621-17e1-4097-a92c-d1603a008795": {
+    "api_56725_ver_58855": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: 'west', 'mid-west', 'central', 'east'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 20,
+              "column": 8,
+              "position": 357
+            },
+            "end": {
+              "line": 20,
+              "column": 15,
+              "position": 364
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: 'west', 'mid-west', 'central', 'east'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 20,
+              "column": 8,
+              "position": 357
+            },
+            "end": {
+              "line": 20,
+              "column": 15,
+              "position": 364
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_c70618d8-8974-4c6b-bfaf-313596d1e26b": {
+    "api_75821_ver_78927": {
+      "oldParserErrors": "token uri parameter unused",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_c92d16e2-1202-4527-90a7-a8ce984334a8": {
+    "api_9958_ver_10257": {
+      "diff": [
+        {
+          "path": "/errors[0]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[0]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'is'",
+          "inspected": "RAML 0.8 does not allow using 'is' property within apis"
+        },
+        {
+          "path": "/errors[2]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[2]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'queryParameters'",
+          "inspected": "RAML 0.8 does not allow using 'queryParameters' property within apis"
+        },
+        {
+          "path": "/errors[3]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[3]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'responses'",
+          "inspected": "RAML 0.8 does not allow using 'responses' property within apis"
+        }
+      ]
+    }
+  },
+  "org_c96904f7-0e11-4ed9-9235-b1d448e88bc1": {
+    "api_7796_ver_7932": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 32,
+              "column": 10,
+              "position": 1103
+            },
+            "end": {
+              "line": 32,
+              "column": 17,
+              "position": 1110
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 32,
+              "column": 10,
+              "position": 1103
+            },
+            "end": {
+              "line": 32,
+              "column": 17,
+              "position": 1110
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 110,
+                  "column": 2,
+                  "position": 3689
+                },
+                "end": {
+                  "line": 110,
+                  "column": 5,
+                  "position": 3692
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 124,
+                  "column": 2,
+                  "position": 4321
+                },
+                "end": {
+                  "line": 124,
+                  "column": 5,
+                  "position": 4324
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 124,
+                  "column": 2,
+                  "position": 4321
+                },
+                "end": {
+                  "line": 124,
+                  "column": 5,
+                  "position": 4324
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 110,
+                  "column": 2,
+                  "position": 3689
+                },
+                "end": {
+                  "line": 110,
+                  "column": 5,
+                  "position": 3692
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 10,
+              "position": 3297
+            },
+            "end": {
+              "line": 94,
+              "column": 17,
+              "position": 3304
+            }
+          }
+        },
+        {
+          "code": "SCHEMA_ERROR",
+          "message": "Can not parse schema",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 106,
+              "column": 4,
+              "position": 3607
+            },
+            "end": {
+              "line": 106,
+              "column": 9,
+              "position": 3612
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SCHEMA_ERROR",
+          "message": "Can not parse schema",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 107,
+              "column": 4,
+              "position": 3640
+            },
+            "end": {
+              "line": 107,
+              "column": 11,
+              "position": 3647
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 32,
+              "column": 10,
+              "position": 1103
+            },
+            "end": {
+              "line": 32,
+              "column": 17,
+              "position": 1110
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 32,
+              "column": 10,
+              "position": 1103
+            },
+            "end": {
+              "line": 32,
+              "column": 17,
+              "position": 1110
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 110,
+                  "column": 2,
+                  "position": 3689
+                },
+                "end": {
+                  "line": 110,
+                  "column": 5,
+                  "position": 3692
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1525
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1532
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 124,
+                  "column": 2,
+                  "position": 4321
+                },
+                "end": {
+                  "line": 124,
+                  "column": 5,
+                  "position": 4324
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 139,
+                  "column": 2,
+                  "position": 5016
+                },
+                "end": {
+                  "line": 139,
+                  "column": 5,
+                  "position": 5019
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 124,
+                  "column": 2,
+                  "position": 4321
+                },
+                "end": {
+                  "line": 124,
+                  "column": 5,
+                  "position": 4324
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 10,
+              "position": 1789
+            },
+            "end": {
+              "line": 47,
+              "column": 17,
+              "position": 1796
+            }
+          },
+          "trace": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 110,
+                  "column": 2,
+                  "position": 3689
+                },
+                "end": {
+                  "line": 110,
+                  "column": 5,
+                  "position": 3692
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 10,
+              "position": 3297
+            },
+            "end": {
+              "line": 94,
+              "column": 17,
+              "position": 3304
+            }
+          }
+        },
+        {
+          "code": "SCHEMA_ERROR",
+          "message": "Can not parse schema",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 106,
+              "column": 4,
+              "position": 3607
+            },
+            "end": {
+              "line": 106,
+              "column": 9,
+              "position": 3612
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SCHEMA_ERROR",
+          "message": "Can not parse schema",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 107,
+              "column": 4,
+              "position": 3640
+            },
+            "end": {
+              "line": 107,
+              "column": 11,
+              "position": 3647
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_cae081aa-6c68-41de-b9a1-f81ee55a44b7": {
+    "api_19220_ver_20525": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 203,
+                  "column": 4,
+                  "position": 6208
+                },
+                "end": {
+                  "line": 203,
+                  "column": 19,
+                  "position": 6223
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 160,
+                  "column": 2,
+                  "position": 4778
+                },
+                "end": {
+                  "line": 160,
+                  "column": 14,
+                  "position": 4790
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 290,
+                  "column": 2,
+                  "position": 8838
+                },
+                "end": {
+                  "line": 290,
+                  "column": 15,
+                  "position": 8851
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 203,
+                  "column": 4,
+                  "position": 6208
+                },
+                "end": {
+                  "line": 203,
+                  "column": 19,
+                  "position": 6223
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 160,
+                  "column": 2,
+                  "position": 4778
+                },
+                "end": {
+                  "line": 160,
+                  "column": 14,
+                  "position": 4790
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 290,
+                  "column": 2,
+                  "position": 8838
+                },
+                "end": {
+                  "line": 290,
+                  "column": 15,
+                  "position": 8851
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 344,
+                  "column": 4,
+                  "position": 10699
+                },
+                "end": {
+                  "line": 344,
+                  "column": 19,
+                  "position": 10714
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 225,
+                  "column": 0,
+                  "position": 6913
+                },
+                "end": {
+                  "line": 225,
+                  "column": 10,
+                  "position": 6923
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 77,
+                  "column": 0,
+                  "position": 2141
+                },
+                "end": {
+                  "line": 77,
+                  "column": 9,
+                  "position": 2150
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 5,
+              "position": 1272
+            },
+            "end": {
+              "line": 50,
+              "column": 6,
+              "position": 1273
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '}'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 225,
+                  "column": 0,
+                  "position": 6913
+                },
+                "end": {
+                  "line": 225,
+                  "column": 10,
+                  "position": 6923
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 51,
+              "column": 25,
+              "position": 1324
+            },
+            "end": {
+              "line": 51,
+              "column": 26,
+              "position": 1325
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 381,
+                  "column": 6,
+                  "position": 12039
+                },
+                "end": {
+                  "line": 381,
+                  "column": 10,
+                  "position": 12043
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '{'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 56,
+              "column": 13,
+              "position": 1425
+            },
+            "end": {
+              "line": 56,
+              "column": 14,
+              "position": 1426
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '{'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 344,
+                  "column": 4,
+                  "position": 10699
+                },
+                "end": {
+                  "line": 344,
+                  "column": 19,
+                  "position": 10714
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "VALUE_NOT_PROVIDED",
+          "message": "Value is not provided for parameter: 'createdCollectionExample'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 346,
+              "column": 8,
+              "position": 10736
+            },
+            "end": {
+              "line": 346,
+              "column": 18,
+              "position": 10746
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 393,
+              "column": 25,
+              "position": 12465
+            },
+            "end": {
+              "line": 393,
+              "column": 26,
+              "position": 12466
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 406,
+              "column": 25,
+              "position": 12909
+            },
+            "end": {
+              "line": 406,
+              "column": 26,
+              "position": 12910
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 413,
+              "column": 25,
+              "position": 13129
+            },
+            "end": {
+              "line": 413,
+              "column": 26,
+              "position": 13130
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 203,
+                  "column": 4,
+                  "position": 6208
+                },
+                "end": {
+                  "line": 203,
+                  "column": 19,
+                  "position": 6223
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 160,
+                  "column": 2,
+                  "position": 4778
+                },
+                "end": {
+                  "line": 160,
+                  "column": 14,
+                  "position": 4790
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 18,
+              "column": 25,
+              "position": 464
+            },
+            "end": {
+              "line": 18,
+              "column": 26,
+              "position": 465
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 290,
+                  "column": 2,
+                  "position": 8838
+                },
+                "end": {
+                  "line": 290,
+                  "column": 15,
+                  "position": 8851
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 203,
+                  "column": 4,
+                  "position": 6208
+                },
+                "end": {
+                  "line": 203,
+                  "column": 19,
+                  "position": 6223
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 160,
+                  "column": 2,
+                  "position": 4778
+                },
+                "end": {
+                  "line": 160,
+                  "column": 14,
+                  "position": 4790
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 25,
+              "position": 751
+            },
+            "end": {
+              "line": 29,
+              "column": 26,
+              "position": 752
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 290,
+                  "column": 2,
+                  "position": 8838
+                },
+                "end": {
+                  "line": 290,
+                  "column": 15,
+                  "position": 8851
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 344,
+                  "column": 4,
+                  "position": 10699
+                },
+                "end": {
+                  "line": 344,
+                  "column": 19,
+                  "position": 10714
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 225,
+                  "column": 0,
+                  "position": 6913
+                },
+                "end": {
+                  "line": 225,
+                  "column": 10,
+                  "position": 6923
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 42,
+              "column": 25,
+              "position": 1102
+            },
+            "end": {
+              "line": 42,
+              "column": 26,
+              "position": 1103
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 77,
+                  "column": 0,
+                  "position": 2141
+                },
+                "end": {
+                  "line": 77,
+                  "column": 9,
+                  "position": 2150
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 5,
+              "position": 1272
+            },
+            "end": {
+              "line": 50,
+              "column": 6,
+              "position": 1273
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '}'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 225,
+                  "column": 0,
+                  "position": 6913
+                },
+                "end": {
+                  "line": 225,
+                  "column": 10,
+                  "position": 6923
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 51,
+              "column": 25,
+              "position": 1324
+            },
+            "end": {
+              "line": 51,
+              "column": 26,
+              "position": 1325
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 381,
+                  "column": 6,
+                  "position": 12039
+                },
+                "end": {
+                  "line": 381,
+                  "column": 10,
+                  "position": 12043
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '{'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 56,
+              "column": 13,
+              "position": 1425
+            },
+            "end": {
+              "line": 56,
+              "column": 14,
+              "position": 1426
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '{'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 344,
+                  "column": 4,
+                  "position": 10699
+                },
+                "end": {
+                  "line": 344,
+                  "column": 19,
+                  "position": 10714
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "VALUE_NOT_PROVIDED",
+          "message": "Value is not provided for parameter: 'createdCollectionExample'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 346,
+              "column": 8,
+              "position": 10736
+            },
+            "end": {
+              "line": 346,
+              "column": 18,
+              "position": 10746
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 393,
+              "column": 25,
+              "position": 12465
+            },
+            "end": {
+              "line": 393,
+              "column": 26,
+              "position": 12466
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 406,
+              "column": 25,
+              "position": 12909
+            },
+            "end": {
+              "line": 406,
+              "column": 26,
+              "position": 12910
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'N'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 413,
+              "column": 25,
+              "position": 13129
+            },
+            "end": {
+              "line": 413,
+              "column": 26,
+              "position": 13130
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_ccd9a35b-383c-456a-8297-3c16762efdfd": {
+    "api_7100_ver_7141": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 4,
+              "position": 238
+            },
+            "end": {
+              "line": 9,
+              "column": 41,
+              "position": 319
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'Sensors'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 40,
+              "column": 12,
+              "position": 969
+            },
+            "end": {
+              "line": 40,
+              "column": 18,
+              "position": 975
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'Location'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 60,
+              "column": 14,
+              "position": 1514
+            },
+            "end": {
+              "line": 60,
+              "column": 20,
+              "position": 1520
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 82,
+              "column": 12,
+              "position": 2199
+            },
+            "end": {
+              "line": 82,
+              "column": 19,
+              "position": 2206
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 87,
+              "column": 12,
+              "position": 2370
+            },
+            "end": {
+              "line": 87,
+              "column": 19,
+              "position": 2377
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'todo'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 16,
+              "position": 2571
+            },
+            "end": {
+              "line": 94,
+              "column": 22,
+              "position": 2577
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 4,
+              "position": 238
+            },
+            "end": {
+              "line": 9,
+              "column": 41,
+              "position": 319
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'Sensors'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 40,
+              "column": 12,
+              "position": 969
+            },
+            "end": {
+              "line": 40,
+              "column": 18,
+              "position": 975
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'Location'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 60,
+              "column": 14,
+              "position": 1514
+            },
+            "end": {
+              "line": 60,
+              "column": 20,
+              "position": 1520
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 82,
+              "column": 12,
+              "position": 2199
+            },
+            "end": {
+              "line": 82,
+              "column": 19,
+              "position": 2206
+            }
+          }
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 87,
+              "column": 12,
+              "position": 2370
+            },
+            "end": {
+              "line": 87,
+              "column": 19,
+              "position": 2377
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'todo'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 16,
+              "position": 2571
+            },
+            "end": {
+              "line": 94,
+              "column": 22,
+              "position": 2577
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_cd2905a9-f506-4953-928b-5cf364a5029b": {
+    "api_53071_ver_55172": {
+      "oldParserErrors": "cannot read /iicexItemData_JSON/xItemMaster-Retail-xItemBrand_schema.json (Error: ENOENT, open '/iicexItemData_JSON/xItemMaster-Retail-xItemBrand_schema.json')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_ce5a4773-79e6-4f3a-b652-dc81c9b82a72": {
+    "api_63816_ver_66188": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "PROPERTY_USED",
+          "message": "Property already used: 'example-vote'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 69,
+              "column": 10,
+              "position": 1786
+            },
+            "end": {
+              "line": 69,
+              "column": 22,
+              "position": 1798
+            }
+          }
+        },
+        {
+          "code": "PROPERTY_USED",
+          "message": "Property already used: 'example-vote'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 74,
+              "column": 10,
+              "position": 1904
+            },
+            "end": {
+              "line": 74,
+              "column": 22,
+              "position": 1916
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'i'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 25,
+              "column": 5,
+              "position": 682
+            },
+            "end": {
+              "line": 25,
+              "column": 6,
+              "position": 683
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'i'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 28,
+              "column": 9,
+              "position": 771
+            },
+            "end": {
+              "line": 28,
+              "column": 13,
+              "position": 775
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 35,
+              "position": 1015
+            },
+            "end": {
+              "line": 35,
+              "column": 39,
+              "position": 1019
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 3,
+              "position": 1575
+            },
+            "end": {
+              "line": 54,
+              "column": 7,
+              "position": 1579
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 56,
+                  "column": 2,
+                  "position": 1534
+                },
+                "end": {
+                  "line": 56,
+                  "column": 8,
+                  "position": 1540
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "PROPERTY_USED",
+          "message": "Property already used: 'example-vote'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 69,
+              "column": 10,
+              "position": 1786
+            },
+            "end": {
+              "line": 69,
+              "column": 22,
+              "position": 1798
+            }
+          }
+        },
+        {
+          "code": "PROPERTY_USED",
+          "message": "Property already used: 'example-vote'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 74,
+              "column": 10,
+              "position": 1904
+            },
+            "end": {
+              "line": 74,
+              "column": 22,
+              "position": 1916
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'i'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 25,
+              "column": 5,
+              "position": 682
+            },
+            "end": {
+              "line": 25,
+              "column": 6,
+              "position": 683
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'i'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 28,
+              "column": 9,
+              "position": 771
+            },
+            "end": {
+              "line": 28,
+              "column": 13,
+              "position": 775
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 35,
+              "position": 1015
+            },
+            "end": {
+              "line": 35,
+              "column": 39,
+              "position": 1019
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 7,
+                  "column": 0,
+                  "position": 196
+                },
+                "end": {
+                  "line": 7,
+                  "column": 6,
+                  "position": 202
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+          "path": "vk-types.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 3,
+              "position": 1575
+            },
+            "end": {
+              "line": 54,
+              "column": 7,
+              "position": 1579
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"id\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 56,
+                  "column": 2,
+                  "position": 1534
+                },
+                "end": {
+                  "line": 56,
+                  "column": 8,
+                  "position": 1540
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_cf679461-cef8-4682-945c-8912e073633f": {
+    "api_349_ver_265": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "WEB_FORMS",
+          "message": "File type can be only used in web forms",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 8,
+              "position": 930
+            },
+            "end": {
+              "line": 35,
+              "column": 12,
+              "position": 934
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 128,
+              "column": 22,
+              "position": 4662
+            },
+            "end": {
+              "line": 128,
+              "column": 23,
+              "position": 4663
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token ','",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 139,
+              "column": 23,
+              "position": 4876
+            },
+            "end": {
+              "line": 139,
+              "column": 24,
+              "position": 4877
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "WEB_FORMS",
+          "message": "File type can be only used in web forms",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 8,
+              "position": 930
+            },
+            "end": {
+              "line": 35,
+              "column": 12,
+              "position": 934
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 128,
+              "column": 22,
+              "position": 4662
+            },
+            "end": {
+              "line": 128,
+              "column": 23,
+              "position": 4663
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token ','",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 139,
+              "column": 23,
+              "position": 4876
+            },
+            "end": {
+              "line": 139,
+              "column": 24,
+              "position": 4877
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_d45d86f0-210b-4b60-b0c4-a764ff74fbc8": {
+    "api_15742_ver_16785": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 9,
+              "column": 4,
+              "position": 168
+            },
+            "end": {
+              "line": 10,
+              "column": 48,
+              "position": 253
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 77,
+              "column": 8,
+              "position": 2695
+            },
+            "end": {
+              "line": 77,
+              "column": 14,
+              "position": 2701
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventListJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 89,
+              "column": 12,
+              "position": 3064
+            },
+            "end": {
+              "line": 89,
+              "column": 18,
+              "position": 3070
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 99,
+              "column": 8,
+              "position": 3330
+            },
+            "end": {
+              "line": 99,
+              "column": 14,
+              "position": 3336
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '{'",
+          "path": "eventListExample.json",
+          "range": {
+            "start": {
+              "line": 11,
+              "column": 1,
+              "position": 252
+            },
+            "end": {
+              "line": 11,
+              "column": 2,
+              "position": 253
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '{'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 90,
+                  "column": 12,
+                  "position": 3098
+                },
+                "end": {
+                  "line": 90,
+                  "column": 19,
+                  "position": 3105
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 9,
+              "column": 4,
+              "position": 168
+            },
+            "end": {
+              "line": 10,
+              "column": 48,
+              "position": 253
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 77,
+              "column": 8,
+              "position": 2695
+            },
+            "end": {
+              "line": 77,
+              "column": 14,
+              "position": 2701
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventListJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 89,
+              "column": 12,
+              "position": 3064
+            },
+            "end": {
+              "line": 89,
+              "column": 18,
+              "position": 3070
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'eventJson'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 99,
+              "column": 8,
+              "position": 3330
+            },
+            "end": {
+              "line": 99,
+              "column": 14,
+              "position": 3336
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '{'",
+          "path": "eventListExample.json",
+          "range": {
+            "start": {
+              "line": 11,
+              "column": 1,
+              "position": 252
+            },
+            "end": {
+              "line": 11,
+              "column": 2,
+              "position": 253
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '{'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 90,
+                  "column": 12,
+                  "position": 3098
+                },
+                "end": {
+                  "line": 90,
+                  "column": 19,
+                  "position": 3105
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_d91c56f3-e90a-404c-af81-2351770dd36f": {
+    "api_74942_ver_78050": {
+      "diff": [
+        {
+          "path": "/specification/traits[0]/paginated/queryParameters/limit/maximum",
+          "comment": "Defined/undefined mismatch",
+          "master": null,
+          "inspected": null
+        }
+      ]
+    }
+  },
+  "org_db6aabf5-b074-4497-827c-3fa87ae5471c": {
+    "api_1583_ver_1582": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Unexpected token '\"allOf\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 28,
+              "position": 822
+            },
+            "end": {
+              "line": 34,
+              "column": 1,
+              "position": 829
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Unexpected token '\"allOf\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: '<<sortColumns>>'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 34,
+              "column": 12,
+              "position": 840
+            },
+            "end": {
+              "line": 34,
+              "column": 19,
+              "position": 847
+            }
+          },
+          "trace": [
+            {
+              "code": "ENUM_RESTRICTION",
+              "message": "value should be one of: '<<sortColumns>>'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Unexpected token '\"properties\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 7,
+              "position": 1509
+            },
+            "end": {
+              "line": 56,
+              "column": 3,
+              "position": 1521
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Unexpected token '\"properties\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 93,
+                  "column": 6,
+                  "position": 3055
+                },
+                "end": {
+                  "line": 93,
+                  "column": 18,
+                  "position": 3067
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRESOLVED_REFERENCE",
+          "message": "Reference: '{\n    \"id\": \"http://ypay.byu.edu/schema/v2/payment-list\",\n    \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n    \"title\": \"Product\",\n    \"description\": \"A product from Acme's catalog\",\n    \"type\": \"object\"\n    \"allOf\": [\n      { \"$ref\": \"/paged-list.schema\" },\n      { \"properties\": {\n        \"list\": {\n          \"items\": {\n            \"$ref\": \"/payment.schema\"\n          }\n        }\n      }\n      \n      }\n    ]\n}' can not be resolved",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 60,
+              "column": 10,
+              "position": 1622
+            },
+            "end": {
+              "line": 60,
+              "column": 16,
+              "position": 1628
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_RANGE",
+          "message": "Property 'sortColumns' must be a string",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 62,
+              "column": 10,
+              "position": 1720
+            },
+            "end": {
+              "line": 62,
+              "column": 21,
+              "position": 1731
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 78,
+              "column": 12,
+              "position": 2370
+            },
+            "end": {
+              "line": 78,
+              "column": 80,
+              "position": 2438
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 95,
+              "column": 16,
+              "position": 3100
+            },
+            "end": {
+              "line": 97,
+              "column": 15,
+              "position": 3168
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 93,
+                  "column": 6,
+                  "position": 3055
+                },
+                "end": {
+                  "line": 93,
+                  "column": 18,
+                  "position": 3067
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRESOLVED_REFERENCE",
+          "message": "Reference: '{\n  \"id\": \"http://ypay.byu.edu/schema/v2/payment\",\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"title\": \"Product\",\n  \"description\": \"A single payment\",\n  \"type\": \"object\"\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"link\": {\n      \"$ref\": \"/link.schema\"\n    },\n    \"client\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"id\": { \"type\": \"string\" },\n        \"link\": { \"$ref\": \"/link.schema\" }\n      }\n    },\n    \"returnUrl\": { \"type\": \"string\" },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\"created\", \"started\", \"processing\", \"paid\", \"rejected\", \"returned\", \"cancelled\", \"reversed\", \"needs-admin\"]\n    },\n    \"items\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\"type\": \"string\"},\n          \"description\": {\"type\": \"string\"},\n          \"amount\": {\"type\": \"number\"},\n          \"fees\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"credit-card\": {\n                \"$ref\": \"#/definitions/item-fee\"\n              },\n              \"echeck\": {\n                \"$ref\": \"#/definitions/item-fee\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"subTotal\": {\n      \"type\": \"number\"\n    },\n    \"totalFees\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"credit-card\": {\"type\": \"number\"},\n        \"echeck\": {\"type\": \"number\"}\n      }\n    },\n    \"total\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"credit-card\": {\"type\": \"number\"},\n        \"echeck\": {\"type\": \"number\"}\n      }\n    }\n  },\n  \"definitions\": {\n    \"item-fee\": {\n      \"properties\": {\n        \"amount\": {\"type\": \"number\"},\n        \"title\": {\"type\": \"string\"},\n        \"description\": {\"type\": \"string\"}\n      }\n    }\n  } \n}' can not be resolved",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 97,
+              "column": 12,
+              "position": 3165
+            },
+            "end": {
+              "line": 97,
+              "column": 18,
+              "position": 3171
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"state\"'",
+          "path": "payment-profile.example",
+          "range": {
+            "start": {
+              "line": 13,
+              "column": 8,
+              "position": 343
+            },
+            "end": {
+              "line": 13,
+              "column": 15,
+              "position": 350
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"state\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 186,
+                  "column": 16,
+                  "position": 5989
+                },
+                "end": {
+                  "line": 186,
+                  "column": 23,
+                  "position": 5996
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"details\"'",
+          "path": "payment-terms.example",
+          "range": {
+            "start": {
+              "line": 2,
+              "column": 2,
+              "position": 58
+            },
+            "end": {
+              "line": 2,
+              "column": 11,
+              "position": 67
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"details\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 194,
+                  "column": 16,
+                  "position": 6242
+                },
+                "end": {
+                  "line": 194,
+                  "column": 23,
+                  "position": 6249
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Unexpected token '\"allOf\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 28,
+              "position": 822
+            },
+            "end": {
+              "line": 34,
+              "column": 1,
+              "position": 829
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Unexpected token '\"allOf\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "ENUM_RESTRICTION",
+          "message": "value should be one of: '<<sortColumns>>'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 34,
+              "column": 12,
+              "position": 840
+            },
+            "end": {
+              "line": 34,
+              "column": 19,
+              "position": 847
+            }
+          },
+          "trace": [
+            {
+              "code": "ENUM_RESTRICTION",
+              "message": "value should be one of: '<<sortColumns>>'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              }
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Unexpected token '\"properties\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 7,
+              "position": 1509
+            },
+            "end": {
+              "line": 56,
+              "column": 3,
+              "position": 1521
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Unexpected token '\"properties\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 93,
+                  "column": 6,
+                  "position": 3055
+                },
+                "end": {
+                  "line": 93,
+                  "column": 18,
+                  "position": 3067
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRESOLVED_REFERENCE",
+          "message": "Reference: '{\n    \"id\": \"http://ypay.byu.edu/schema/v2/payment-list\",\n    \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n    \"title\": \"Product\",\n    \"description\": \"A product from Acme's catalog\",\n    \"type\": \"object\"\n    \"allOf\": [\n      { \"$ref\": \"/paged-list.schema\" },\n      { \"properties\": {\n        \"list\": {\n          \"items\": {\n            \"$ref\": \"/payment.schema\"\n          }\n        }\n      }\n      \n      }\n    ]\n}' can not be resolved",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 60,
+              "column": 10,
+              "position": 1622
+            },
+            "end": {
+              "line": 60,
+              "column": 16,
+              "position": 1628
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_RANGE",
+          "message": "Property 'sortColumns' must be a string",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 62,
+              "column": 10,
+              "position": 1720
+            },
+            "end": {
+              "line": 62,
+              "column": 21,
+              "position": 1731
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 78,
+              "column": 12,
+              "position": 2370
+            },
+            "end": {
+              "line": 78,
+              "column": 80,
+              "position": 2438
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 6,
+                  "position": 1804
+                },
+                "end": {
+                  "line": 64,
+                  "column": 9,
+                  "position": 1807
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 95,
+              "column": 16,
+              "position": 3100
+            },
+            "end": {
+              "line": 97,
+              "column": 15,
+              "position": 3168
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"If your information is correct, contact your financial institution\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 93,
+                  "column": 6,
+                  "position": 3055
+                },
+                "end": {
+                  "line": 93,
+                  "column": 18,
+                  "position": 3067
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRESOLVED_REFERENCE",
+          "message": "Reference: '{\n  \"id\": \"http://ypay.byu.edu/schema/v2/payment\",\n  \"$schema\": \"http://json-schema.org/draft-04/schema#\",\n  \"title\": \"Product\",\n  \"description\": \"A single payment\",\n  \"type\": \"object\"\n  \"properties\": {\n    \"id\": {\n      \"type\": \"string\"\n    },\n    \"link\": {\n      \"$ref\": \"/link.schema\"\n    },\n    \"client\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"name\": {\n          \"type\": \"string\"\n        },\n        \"id\": { \"type\": \"string\" },\n        \"link\": { \"$ref\": \"/link.schema\" }\n      }\n    },\n    \"returnUrl\": { \"type\": \"string\" },\n    \"status\": {\n      \"type\": \"string\",\n      \"enum\": [\"created\", \"started\", \"processing\", \"paid\", \"rejected\", \"returned\", \"cancelled\", \"reversed\", \"needs-admin\"]\n    },\n    \"items\": {\n      \"type\": \"array\",\n      \"items\": {\n        \"type\": \"object\",\n        \"properties\": {\n          \"id\": {\"type\": \"string\"},\n          \"description\": {\"type\": \"string\"},\n          \"amount\": {\"type\": \"number\"},\n          \"fees\": {\n            \"type\": \"object\",\n            \"properties\": {\n              \"credit-card\": {\n                \"$ref\": \"#/definitions/item-fee\"\n              },\n              \"echeck\": {\n                \"$ref\": \"#/definitions/item-fee\"\n              }\n            }\n          }\n        }\n      }\n    },\n    \"subTotal\": {\n      \"type\": \"number\"\n    },\n    \"totalFees\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"credit-card\": {\"type\": \"number\"},\n        \"echeck\": {\"type\": \"number\"}\n      }\n    },\n    \"total\": {\n      \"type\": \"object\",\n      \"properties\": {\n        \"credit-card\": {\"type\": \"number\"},\n        \"echeck\": {\"type\": \"number\"}\n      }\n    }\n  },\n  \"definitions\": {\n    \"item-fee\": {\n      \"properties\": {\n        \"amount\": {\"type\": \"number\"},\n        \"title\": {\"type\": \"string\"},\n        \"description\": {\"type\": \"string\"}\n      }\n    }\n  } \n}' can not be resolved",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 97,
+              "column": 12,
+              "position": 3165
+            },
+            "end": {
+              "line": 97,
+              "column": 18,
+              "position": 3171
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"state\"'",
+          "path": "payment-profile.example",
+          "range": {
+            "start": {
+              "line": 13,
+              "column": 8,
+              "position": 343
+            },
+            "end": {
+              "line": 13,
+              "column": 15,
+              "position": 350
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"state\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 186,
+                  "column": 16,
+                  "position": 5989
+                },
+                "end": {
+                  "line": 186,
+                  "column": 23,
+                  "position": 5996
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '\"details\"'",
+          "path": "payment-terms.example",
+          "range": {
+            "start": {
+              "line": 2,
+              "column": 2,
+              "position": 58
+            },
+            "end": {
+              "line": 2,
+              "column": 11,
+              "position": 67
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '\"details\"'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 194,
+                  "column": 16,
+                  "position": 6242
+                },
+                "end": {
+                  "line": 194,
+                  "column": 23,
+                  "position": 6249
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_db93113c-2857-4dab-ac0e-3ebe0315acff": {
+    "api_20543_ver_21934": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 6,
+              "column": 8,
+              "position": 116
+            },
+            "end": {
+              "line": 20,
+              "column": 77,
+              "position": 6584
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceLoginRequestDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 28,
+              "column": 16,
+              "position": 6770
+            },
+            "end": {
+              "line": 28,
+              "column": 22,
+              "position": 6776
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceLoginResponseDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 24,
+              "position": 7116
+            },
+            "end": {
+              "line": 35,
+              "column": 30,
+              "position": 7122
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceTokenAuthDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 16,
+              "position": 7777
+            },
+            "end": {
+              "line": 50,
+              "column": 22,
+              "position": 7783
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceTokenAuthDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 16,
+              "position": 8269
+            },
+            "end": {
+              "line": 64,
+              "column": 22,
+              "position": 8275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'OAuth2AccessToken'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 71,
+              "column": 24,
+              "position": 8583
+            },
+            "end": {
+              "line": 71,
+              "column": 30,
+              "position": 8589
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceDataDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 80,
+              "column": 16,
+              "position": 9002
+            },
+            "end": {
+              "line": 80,
+              "column": 22,
+              "position": 9008
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceSensorDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 16,
+              "position": 9958
+            },
+            "end": {
+              "line": 101,
+              "column": 22,
+              "position": 9964
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'SensorDataDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 115,
+              "column": 16,
+              "position": 10482
+            },
+            "end": {
+              "line": 115,
+              "column": 22,
+              "position": 10488
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 6,
+              "column": 8,
+              "position": 116
+            },
+            "end": {
+              "line": 20,
+              "column": 77,
+              "position": 6584
+            }
+          }
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceLoginRequestDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 28,
+              "column": 16,
+              "position": 6770
+            },
+            "end": {
+              "line": 28,
+              "column": 22,
+              "position": 6776
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceLoginResponseDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 24,
+              "position": 7116
+            },
+            "end": {
+              "line": 35,
+              "column": 30,
+              "position": 7122
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceTokenAuthDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 16,
+              "position": 7777
+            },
+            "end": {
+              "line": 50,
+              "column": 22,
+              "position": 7783
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceTokenAuthDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 16,
+              "position": 8269
+            },
+            "end": {
+              "line": 64,
+              "column": 22,
+              "position": 8275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'OAuth2AccessToken'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 71,
+              "column": 24,
+              "position": 8583
+            },
+            "end": {
+              "line": 71,
+              "column": 30,
+              "position": 8589
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceDataDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 80,
+              "column": 16,
+              "position": 9002
+            },
+            "end": {
+              "line": 80,
+              "column": 22,
+              "position": 9008
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'DeviceSensorDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 16,
+              "position": 9958
+            },
+            "end": {
+              "line": 101,
+              "column": 22,
+              "position": 9964
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'SensorDataDTO'.",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 115,
+              "column": 16,
+              "position": 10482
+            },
+            "end": {
+              "line": 115,
+              "column": 22,
+              "position": 10488
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_dda14c34-cef5-4285-a089-a0a044196d3e": {
+    "api_49801_ver_51666": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "position": 601
+            },
+            "end": {
+              "line": 19,
+              "column": 13,
+              "position": 610
+            }
+          }
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1224
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1231
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "examples/registration-get-response.json",
+          "range": {
+            "start": {
+              "line": 10,
+              "column": 0,
+              "position": 273
+            },
+            "end": {
+              "line": 10,
+              "column": 1,
+              "position": 274
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '}'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 71,
+                  "column": 12,
+                  "position": 2186
+                },
+                "end": {
+                  "line": 71,
+                  "column": 19,
+                  "position": 2193
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'J'",
+          "path": "examples/settings-response-example.json",
+          "range": {
+            "start": {
+              "line": 0,
+              "column": 0,
+              "position": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 1,
+              "position": 1
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'J'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 10,
+                  "position": 722
+                },
+                "end": {
+                  "line": 24,
+                  "column": 17,
+                  "position": 729
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "schemas/registration-info-schema.json",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 6,
+              "position": 985
+            },
+            "end": {
+              "line": 39,
+              "column": 7,
+              "position": 1106
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 9,
+                  "column": 4,
+                  "position": 269
+                },
+                "end": {
+                  "line": 9,
+                  "column": 20,
+                  "position": 285
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "schemas/registrations-info-schema.json",
+          "range": {
+            "start": {
+              "line": 37,
+              "column": 10,
+              "position": 1194
+            },
+            "end": {
+              "line": 41,
+              "column": 11,
+              "position": 1337
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 10,
+                  "column": 4,
+                  "position": 338
+                },
+                "end": {
+                  "line": 10,
+                  "column": 21,
+                  "position": 355
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "position": 601
+            },
+            "end": {
+              "line": 19,
+              "column": 13,
+              "position": 610
+            }
+          }
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 41,
+              "column": 10,
+              "position": 1224
+            },
+            "end": {
+              "line": 41,
+              "column": 17,
+              "position": 1231
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "examples/registration-get-response.json",
+          "range": {
+            "start": {
+              "line": 10,
+              "column": 0,
+              "position": 273
+            },
+            "end": {
+              "line": 10,
+              "column": 1,
+              "position": 274
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Unexpected token '}'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 71,
+                  "column": 12,
+                  "position": 2186
+                },
+                "end": {
+                  "line": 71,
+                  "column": 19,
+                  "position": 2193
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'J'",
+          "path": "examples/settings-response-example.json",
+          "range": {
+            "start": {
+              "line": 0,
+              "column": 0,
+              "position": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 1,
+              "position": 1
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol 'J'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 10,
+                  "position": 722
+                },
+                "end": {
+                  "line": 24,
+                  "column": 17,
+                  "position": 729
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "schemas/registration-info-schema.json",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 6,
+              "position": 985
+            },
+            "end": {
+              "line": 39,
+              "column": 7,
+              "position": 1106
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 9,
+                  "column": 4,
+                  "position": 269
+                },
+                "end": {
+                  "line": 9,
+                  "column": 20,
+                  "position": 285
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "path": "schemas/registrations-info-schema.json",
+          "range": {
+            "start": {
+              "line": 37,
+              "column": 10,
+              "position": 1194
+            },
+            "end": {
+              "line": 41,
+              "column": 11,
+              "position": 1337
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 10,
+                  "column": 4,
+                  "position": 338
+                },
+                "end": {
+                  "line": 10,
+                  "column": 21,
+                  "position": 355
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_de1ab4aa-398e-4842-8395-57b1022abf1f": {
+    "api_48207_ver_49975": {
+      "oldParserErrors": "cannot read /schemas/blogResource-schema.json (Error: ENOENT, open '/schemas/blogResource-schema.json')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_e01694b9-1a24-47b8-ae09-67e3f29b9013": {
+    "api_59249_ver_61617": {
+      "oldParserErrors": "schema is not valid JSON error: 'SyntaxError: Unexpected token }'",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_e053f968-a025-4467-b68b-55f111b3ff05": {
+    "api_45746_ver_47430": {
+      "diff": [
+        {
+          "path": "/errors[4]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[4]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'queryParameters'",
+          "inspected": "RAML 0.8 does not allow using 'queryParameters' property within resources"
+        },
+        {
+          "path": "/errors[4]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Unknown node: 'queryParameters'",
+          "inspected": "Error in the included file: RAML 0.8 does not allow using 'queryParameters' property within resources"
+        },
+        {
+          "path": "/errors[5]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[5]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'responses'",
+          "inspected": "RAML 0.8 does not allow using 'responses' property within resources"
+        },
+        {
+          "path": "/errors[5]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Unknown node: 'responses'",
+          "inspected": "Error in the included file: RAML 0.8 does not allow using 'responses' property within resources"
+        }
+      ]
+    },
+    "api_5694_ver_5676": {
+      "diff": [
+        {
+          "path": "/errors[5]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[5]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'queryParameters'",
+          "inspected": "RAML 0.8 does not allow using 'queryParameters' property within resources"
+        },
+        {
+          "path": "/errors[5]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Unknown node: 'queryParameters'",
+          "inspected": "Error in the included file: RAML 0.8 does not allow using 'queryParameters' property within resources"
+        },
+        {
+          "path": "/errors[6]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[6]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'responses'",
+          "inspected": "RAML 0.8 does not allow using 'responses' property within resources"
+        },
+        {
+          "path": "/errors[6]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Unknown node: 'responses'",
+          "inspected": "Error in the included file: RAML 0.8 does not allow using 'responses' property within resources"
+        }
+      ]
+    }
+  },
+  "org_e11a03f7-2744-469a-95ab-d3b785e42c54": {
+    "api_51267_ver_53288": {
+      "diff": [
+        {
+          "path": "/errors[0]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[0]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'description'",
+          "inspected": "RAML 0.8 does not allow using 'description' property within apis"
+        },
+        {
+          "path": "/errors[2]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[2]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'queryParameters'",
+          "inspected": "RAML 0.8 does not allow using 'queryParameters' property within apis"
+        },
+        {
+          "path": "/errors[3]/code",
+          "comment": "Inequal values",
+          "master": "UNKNOWN_NODE",
+          "inspected": "INVALID_PROPERTY_USAGE"
+        },
+        {
+          "path": "/errors[3]/message",
+          "comment": "Inequal values",
+          "master": "Unknown node: 'responses'",
+          "inspected": "RAML 0.8 does not allow using 'responses' property within apis"
+        }
+      ]
+    }
+  }
+}
