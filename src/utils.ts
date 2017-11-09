@@ -28,7 +28,7 @@ export const TRAVIS_COMMIT_CACHE_UPDATE_NEXT_INDEX_MESSAGE = "TRAVIS_SNAPSHOT_UP
 
 export function platformDir():string {
     var rootDirPath = testUtils.rootDir(__dirname);
-    let platformDir = path.resolve(rootDirPath, "../content");
+    let platformDir = path.resolve(rootDirPath, "./content");
     if(!fs.existsSync(platformDir)){
         throw new Error("Platform content not found");
     }
