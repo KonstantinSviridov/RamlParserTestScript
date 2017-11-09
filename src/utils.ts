@@ -14,7 +14,7 @@ export const targetBranchArgName = "--branch";
 export const masterBranchArgName = "--masterBranch";
 export const targetCommitArgName = "--targetCommit";
 export const masterCommitArgName = "--masterCommit";
-export const contentUriArgName = "--branch";
+export const contentUriArgName = "--contentUri";
 export const parserRepoUri = "https://github.com/raml-org/raml-js-parser-2";
 export const parserRepoName = "raml-js-parser-2";
 export const workspaceDescriptioName = "workspace.json";
@@ -94,7 +94,7 @@ export function getContentURI():string{
     if(contentUri){
         return contentUri;
     }
-    return process.env.CONTENT_URI;
+    return process.env[CONTENT_URI];
 }
 
 
