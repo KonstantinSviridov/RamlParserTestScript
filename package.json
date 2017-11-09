@@ -1,0 +1,49 @@
+{
+  "name": "raml-parser-test-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/script.js",
+  "scripts": {
+    "travisMain": "node dist/script.js --onlySufficient --commitCache --limitTime",
+    "prepareParsers": "node dist/prepareParsers.js",
+    "build": "rimraf dist && tsc",
+    "compare": "node dist/script.js",
+    "devInstall": "dev-env-installer install -directlinks",
+    "buildall": "dev-env-installer buildall && npm run build",
+    "buildallinitial": "dev-env-installer buildall",
+    "buildPreparationScript": "rimraf dist && tsc src/utils.ts src/prepareParsers.ts --outDir dist -m commonjs --sourceMap",
+    "pullall": "dev-env-installer pullall"
+  },
+  "typings": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinSviridov/RamlParserTestScript.git"
+  },
+  "author": "Konstantin Sviridov",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KonstantinSviridov/RamlParserTestScript/issues"
+  },
+  "homepage": "https://github.com/KonstantinSviridov/RamlParserTestScript#readme",
+  "dependencies": {
+    "dev-env-installer": "^0.0.14",
+    "node-zip": "^1.1.1",
+    "promise-timeout": "^1.1.1",
+    "raml-parser": "^0.8.18",
+    "raml-1-parser-test-utils": "^1.0.10",
+    "request-promise-native": "^1.0.5",
+    "underscore": "^1.8.3"
+  },
+  "optionalDependencies": {
+    "platform-snapshot": ">=1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "4.2.20",
+    "@types/underscore": "1.8.3",
+    "@types/invariant": "2.2.29",
+    "@types/mkdirp": "0.5.1",
+    "mkdirp": "^0.5.1",
+    "typescript": "2.5.2",
+    "rimraf": "*"
+  }
+}

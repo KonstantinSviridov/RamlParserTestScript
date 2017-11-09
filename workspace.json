@@ -1,0 +1,13 @@
+{
+  "raml-parser-test-script" : {
+    "build" : "npm run buildPreparationScript",
+    "gitUrl" : "https://github.com/KonstantinSviridov/RamlParserTestScript.git",
+    "gitBranch" : false,
+    "installTypings" : false
+  },
+  "raml-1-parser-test-utils" : {
+    "build" : "npm run build",
+    "gitUrl" : "https://github.com/KonstantinSviridov/raml-1-parser-test-utils.git",
+    "installTypings" : false
+  }
+}

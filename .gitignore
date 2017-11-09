@@ -1,0 +1,7 @@
+.project
+*.iml
+
+/node_modules/
+/dist/
+
+/content/
