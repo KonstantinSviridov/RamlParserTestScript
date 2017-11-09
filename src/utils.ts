@@ -94,7 +94,7 @@ export function getContentURI():string{
     if(contentUri){
         return contentUri;
     }
-    return testUtils.extractValueFromTravisCommitMessage(CONTENT_URI);
+    return process.env.CONTENT_URI;
 }
 
 
