@@ -250,7 +250,7 @@ function operate():Promise<any>{
                 testUtils.insertDummyChanges(rootDir);
             }
             testUtils.contributeTheStorage( rootDir,
-                ["trigger.txt", "cache/*", "reports/*"], commitMessageFileName, true);
+                ["trigger.txt", /*"cache/*",*/ "reports/*"], commitMessageFileName, true);
             fs.unlinkSync(commitMessageFilePath);
         }
     },err=>{
