@@ -1,0 +1,3627 @@
+{
+  "org_014239c4-ba03-41f8-b0a6-d50957137a6d": {
+    "api_56689_ver_58811": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Metadata response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 2,
+              "position": 248
+            },
+            "end": {
+              "line": 8,
+              "column": 29,
+              "position": 275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Screen Tags response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 2,
+              "position": 754
+            },
+            "end": {
+              "line": 33,
+              "column": 32,
+              "position": 784
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 2,
+              "position": 1186
+            },
+            "end": {
+              "line": 54,
+              "column": 36,
+              "position": 1220
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 83,
+              "column": 2,
+              "position": 1811
+            },
+            "end": {
+              "line": 83,
+              "column": 37,
+              "position": 1846
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 2,
+              "position": 2196
+            },
+            "end": {
+              "line": 101,
+              "column": 46,
+              "position": 2240
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 131,
+              "column": 2,
+              "position": 2870
+            },
+            "end": {
+              "line": 131,
+              "column": 47,
+              "position": 2915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 151,
+              "column": 4,
+              "position": 3362
+            },
+            "end": {
+              "line": 151,
+              "column": 15,
+              "position": 3373
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 159,
+              "column": 6,
+              "position": 3658
+            },
+            "end": {
+              "line": 159,
+              "column": 17,
+              "position": 3669
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 172,
+              "column": 6,
+              "position": 4056
+            },
+            "end": {
+              "line": 172,
+              "column": 17,
+              "position": 4067
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 188,
+              "column": 6,
+              "position": 4596
+            },
+            "end": {
+              "line": 188,
+              "column": 17,
+              "position": 4607
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Metadata response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 2,
+              "position": 248
+            },
+            "end": {
+              "line": 8,
+              "column": 29,
+              "position": 275
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Get Fetch Screen Tags response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 33,
+              "column": 2,
+              "position": 754
+            },
+            "end": {
+              "line": 33,
+              "column": 32,
+              "position": 784
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 54,
+              "column": 2,
+              "position": 1186
+            },
+            "end": {
+              "line": 54,
+              "column": 36,
+              "position": 1220
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 83,
+              "column": 2,
+              "position": 1811
+            },
+            "end": {
+              "line": 83,
+              "column": 37,
+              "position": 1846
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification request'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 101,
+              "column": 2,
+              "position": 2196
+            },
+            "end": {
+              "line": 101,
+              "column": 46,
+              "position": 2240
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SPACES_IN_KEY",
+          "message": "Keys should not have spaces 'Post New Exclusive Push Notification response'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 131,
+              "column": 2,
+              "position": 2870
+            },
+            "end": {
+              "line": 131,
+              "column": 47,
+              "position": 2915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 151,
+              "column": 4,
+              "position": 3362
+            },
+            "end": {
+              "line": 151,
+              "column": 15,
+              "position": 3373
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 159,
+              "column": 6,
+              "position": 3658
+            },
+            "end": {
+              "line": 159,
+              "column": 17,
+              "position": 3669
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 172,
+              "column": 6,
+              "position": 4056
+            },
+            "end": {
+              "line": 172,
+              "column": 17,
+              "position": 4067
+            }
+          }
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 188,
+              "column": 6,
+              "position": 4596
+            },
+            "end": {
+              "line": 188,
+              "column": 17,
+              "position": 4607
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_0175dd81-5fe1-462c-9df8-aa0e389689ca": {
+    "api_43943_ver_45555": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 22,
+              "position": 983
+            },
+            "end": {
+              "line": 30,
+              "column": 23,
+              "position": 984
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1190
+            },
+            "end": {
+              "line": 38,
+              "column": 17,
+              "position": 1201
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 22,
+              "position": 1814
+            },
+            "end": {
+              "line": 55,
+              "column": 23,
+              "position": 1815
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 22,
+              "position": 983
+            },
+            "end": {
+              "line": 30,
+              "column": 23,
+              "position": 984
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_PROPERTY_USAGE",
+          "message": "RAML 0.8 does not allow using 'displayName' property within methods",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1190
+            },
+            "end": {
+              "line": 38,
+              "column": 17,
+              "position": 1201
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected token '}'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 55,
+              "column": 22,
+              "position": 1814
+            },
+            "end": {
+              "line": 55,
+              "column": 23,
+              "position": 1815
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_0308b341-b212-4567-82ea-caa06df67d72": {
+    "api_16066_ver_17121": {
+      "diff": [
+        {
+          "path": "/errors[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Invalid JSON schema: Invalid JSON schema: Keyword 'description' is expected to be of type 'string'",
+          "inspected": "Invalid JSON schema: Keyword 'description' is expected to be of type 'string'"
+        },
+        {
+          "path": "/errors[1]/trace[0]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Invalid JSON schema: Invalid JSON schema: Keyword 'description' is expected to be of type 'string'",
+          "inspected": "Error in the included file: Invalid JSON schema: Keyword 'description' is expected to be of type 'string'"
+        },
+        {
+          "path": "/errors[18]/trace[1]/message",
+          "comment": "Inequal values",
+          "master": "Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[18]/trace[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Error in the included file: Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[20]/trace[1]/message",
+          "comment": "Inequal values",
+          "master": "Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[20]/trace[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Error in the included file: Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[25]/trace[1]/message",
+          "comment": "Inequal values",
+          "master": "Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[25]/trace[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Error in the included file: Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[26]/trace[1]/message",
+          "comment": "Inequal values",
+          "master": "Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[26]/trace[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Error in the included file: Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[28]/trace[1]/message",
+          "comment": "Inequal values",
+          "master": "Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Can not parse JSON example: Unexpected end of JSON input"
+        },
+        {
+          "path": "/errors[28]/trace[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Error in the included file: Can not parse JSON example: Can not parse JSON example: Unexpected end of JSON input",
+          "inspected": "Error in the included file: Can not parse JSON example: Unexpected end of JSON input"
+        }
+      ]
+    }
+  },
+  "org_03d96b6b-cf0d-4cb4-8757-dee719dca6e6": {
+    "api_12846_ver_13352": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "VALUE_FOR_REQUIRED_PROPERTY_NOT_PROVIDED",
+          "message": "Value is not provided for required property 'title'",
+          "path": "sailaja.raml",
+          "range": {
+            "start": {
+              "line": 1,
+              "column": 0,
+              "position": 11
+            },
+            "end": {
+              "line": 1,
+              "column": 5,
+              "position": 16
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "VALUE_FOR_REQUIRED_PROPERTY_NOT_PROVIDED",
+          "message": "Value is not provided for required property 'title'",
+          "path": "sailaja.raml",
+          "range": {
+            "start": {
+              "line": 1,
+              "column": 0,
+              "position": 11
+            },
+            "end": {
+              "line": 1,
+              "column": 5,
+              "position": 16
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_075fa592-40f7-4026-bb0d-5380a12fd1c3": {
+    "api_28514_ver_30341": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 5,
+              "column": 0,
+              "position": 179
+            },
+            "end": {
+              "line": 5,
+              "column": 9,
+              "position": 188
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '\"'",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 29,
+              "position": 1143
+            },
+            "end": {
+              "line": 47,
+              "column": 30,
+              "position": 1144
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SCALAR_PROHIBITED",
+          "message": "Property 'schemas' can not have scalar value",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 209,
+              "column": 0,
+              "position": 5045
+            },
+            "end": {
+              "line": 209,
+              "column": 7,
+              "position": 5052
+            }
+          }
+        },
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 210,
+              "column": 3,
+              "position": 5057
+            },
+            "end": {
+              "line": 210,
+              "column": 8,
+              "position": 5062
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 5,
+              "column": 0,
+              "position": 179
+            },
+            "end": {
+              "line": 5,
+              "column": 9,
+              "position": 188
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '\"'",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 47,
+              "column": 29,
+              "position": 1143
+            },
+            "end": {
+              "line": 47,
+              "column": 30,
+              "position": 1144
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "SCALAR_PROHIBITED",
+          "message": "Property 'schemas' can not have scalar value",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 209,
+              "column": 0,
+              "position": 5045
+            },
+            "end": {
+              "line": 209,
+              "column": 7,
+              "position": 5052
+            }
+          }
+        },
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "merged.raml",
+          "range": {
+            "start": {
+              "line": 210,
+              "column": 3,
+              "position": 5057
+            },
+            "end": {
+              "line": 210,
+              "column": 8,
+              "position": 5062
+            }
+          }
+        }
+      ]
+    },
+    "api_37322_ver_38966": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'T'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 30,
+              "position": 914
+            },
+            "end": {
+              "line": 35,
+              "column": 31,
+              "position": 915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "WEB_FORMS",
+          "message": "File type can be only used in web forms",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 118,
+              "column": 10,
+              "position": 2807
+            },
+            "end": {
+              "line": 118,
+              "column": 14,
+              "position": 2811
+            }
+          }
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol 'T'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 35,
+              "column": 30,
+              "position": 914
+            },
+            "end": {
+              "line": 35,
+              "column": 31,
+              "position": 915
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "WEB_FORMS",
+          "message": "File type can be only used in web forms",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 118,
+              "column": 10,
+              "position": 2807
+            },
+            "end": {
+              "line": 118,
+              "column": 14,
+              "position": 2811
+            }
+          }
+        }
+      ]
+    }
+  },
+  "org_09396371-2cd4-412e-8d08-4356dd3e7bfc": {
+    "api_73440_ver_76451": {
+      "oldParserErrors": "cannot read /samples/supervisions-default.json (Error: ENOENT: no such file or directory, open '/samples/supervisions-default.json')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_0ae28ab0-1c94-472e-84bd-3833f6484842": {
+    "api_19473_ver_20785": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 40,
+              "column": 10,
+              "position": 1235
+            },
+            "end": {
+              "line": 40,
+              "column": 17,
+              "position": 1242
+            }
+          }
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 46,
+              "column": 10,
+              "position": 1401
+            },
+            "end": {
+              "line": 46,
+              "column": 17,
+              "position": 1408
+            }
+          }
+        },
+        {
+          "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+          "message": "Content is not valid according to schema: Missing required property: idSubCategory",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 320,
+              "column": 30,
+              "position": 15400
+            },
+            "end": {
+              "line": 349,
+              "column": 31,
+              "position": 16962
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 40,
+              "column": 10,
+              "position": 1235
+            },
+            "end": {
+              "line": 40,
+              "column": 17,
+              "position": 1242
+            }
+          }
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 46,
+              "column": 10,
+              "position": 1401
+            },
+            "end": {
+              "line": 46,
+              "column": 17,
+              "position": 1408
+            }
+          }
+        },
+        {
+          "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+          "message": "Content is not valid according to schema: Missing required property: idSubCategory",
+          "path": "api_OP_spain.raml",
+          "range": {
+            "start": {
+              "line": 320,
+              "column": 30,
+              "position": 15400
+            },
+            "end": {
+              "line": 349,
+              "column": 31,
+              "position": 16962
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_0ae907e8-9406-45df-8f0e-816c3153b068": {
+    "api_50661_ver_52610": {
+      "oldParserErrors": "a varname must be specified",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_0bde8df5-14f2-42c0-8a18-92283fc26761": {
+    "api_1689_ver_1697": {
+      "diff": [
+        {
+          "path": "/errors",
+          "comment": "Array lengths mismatch",
+          "master": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 29,
+                  "column": 16,
+                  "position": 1000
+                },
+                "end": {
+                  "line": 29,
+                  "column": 23,
+                  "position": 1007
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 36,
+                  "column": 16,
+                  "position": 1264
+                },
+                "end": {
+                  "line": 36,
+                  "column": 23,
+                  "position": 1271
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 43,
+                  "column": 16,
+                  "position": 1556
+                },
+                "end": {
+                  "line": 43,
+                  "column": 23,
+                  "position": 1563
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 50,
+                  "column": 16,
+                  "position": 1856
+                },
+                "end": {
+                  "line": 50,
+                  "column": 23,
+                  "position": 1863
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 57,
+                  "column": 16,
+                  "position": 2118
+                },
+                "end": {
+                  "line": 57,
+                  "column": 23,
+                  "position": 2125
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 16,
+                  "position": 2360
+                },
+                "end": {
+                  "line": 64,
+                  "column": 23,
+                  "position": 2367
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 71,
+                  "column": 16,
+                  "position": 2721
+                },
+                "end": {
+                  "line": 71,
+                  "column": 23,
+                  "position": 2728
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 78,
+                  "column": 16,
+                  "position": 3083
+                },
+                "end": {
+                  "line": 78,
+                  "column": 23,
+                  "position": 3090
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 85,
+                  "column": 16,
+                  "position": 3453
+                },
+                "end": {
+                  "line": 85,
+                  "column": 23,
+                  "position": 3460
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 16,
+                  "position": 3823
+                },
+                "end": {
+                  "line": 92,
+                  "column": 23,
+                  "position": 3830
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'boolean' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 113,
+                  "column": 16,
+                  "position": 4693
+                },
+                "end": {
+                  "line": 113,
+                  "column": 23,
+                  "position": 4700
+                }
+              }
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'boolean' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 114,
+                  "column": 16,
+                  "position": 4722
+                },
+                "end": {
+                  "line": 114,
+                  "column": 23,
+                  "position": 4729
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "EXAMPLE_SCHEMA_FAILURE",
+              "message": "Example does not conform to schema: !_PERF_!",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 704,
+                  "column": 24,
+                  "position": 50162
+                },
+                "end": {
+                  "line": 704,
+                  "column": 31,
+                  "position": 50169
+                }
+              },
+              "isWarning": true
+            }
+          ],
+          "inspected": [
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 29,
+                  "column": 16,
+                  "position": 1000
+                },
+                "end": {
+                  "line": 29,
+                  "column": 23,
+                  "position": 1007
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 36,
+                  "column": 16,
+                  "position": 1264
+                },
+                "end": {
+                  "line": 36,
+                  "column": 23,
+                  "position": 1271
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 43,
+                  "column": 16,
+                  "position": 1556
+                },
+                "end": {
+                  "line": 43,
+                  "column": 23,
+                  "position": 1563
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 50,
+                  "column": 16,
+                  "position": 1856
+                },
+                "end": {
+                  "line": 50,
+                  "column": 23,
+                  "position": 1863
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "INTEGER_EXPECTED",
+              "message": "integer is expected",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 57,
+                  "column": 16,
+                  "position": 2118
+                },
+                "end": {
+                  "line": 57,
+                  "column": 23,
+                  "position": 2125
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 16,
+                  "position": 2360
+                },
+                "end": {
+                  "line": 64,
+                  "column": 23,
+                  "position": 2367
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 71,
+                  "column": 16,
+                  "position": 2721
+                },
+                "end": {
+                  "line": 71,
+                  "column": 23,
+                  "position": 2728
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 78,
+                  "column": 16,
+                  "position": 3083
+                },
+                "end": {
+                  "line": 78,
+                  "column": 23,
+                  "position": 3090
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 85,
+                  "column": 16,
+                  "position": 3453
+                },
+                "end": {
+                  "line": 85,
+                  "column": 23,
+                  "position": 3460
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'number' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 92,
+                  "column": 16,
+                  "position": 3823
+                },
+                "end": {
+                  "line": 92,
+                  "column": 23,
+                  "position": 3830
+                }
+              },
+              "isWarning": true
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'boolean' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 113,
+                  "column": 16,
+                  "position": 4693
+                },
+                "end": {
+                  "line": 113,
+                  "column": 23,
+                  "position": 4700
+                }
+              }
+            },
+            {
+              "code": "TYPE_EXPECTED",
+              "message": "Expected type 'boolean' but got 'string'",
+              "path": "ratefinderapi.raml",
+              "range": {
+                "start": {
+                  "line": 114,
+                  "column": 16,
+                  "position": 4722
+                },
+                "end": {
+                  "line": 114,
+                  "column": 23,
+                  "position": 4729
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 16,
+              "position": 1000
+            },
+            "end": {
+              "line": 29,
+              "column": 23,
+              "position": 1007
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 36,
+              "column": 16,
+              "position": 1264
+            },
+            "end": {
+              "line": 36,
+              "column": 23,
+              "position": 1271
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 43,
+              "column": 16,
+              "position": 1556
+            },
+            "end": {
+              "line": 43,
+              "column": 23,
+              "position": 1563
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 16,
+              "position": 1856
+            },
+            "end": {
+              "line": 50,
+              "column": 23,
+              "position": 1863
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 57,
+              "column": 16,
+              "position": 2118
+            },
+            "end": {
+              "line": 57,
+              "column": 23,
+              "position": 2125
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 16,
+              "position": 2360
+            },
+            "end": {
+              "line": 64,
+              "column": 23,
+              "position": 2367
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 71,
+              "column": 16,
+              "position": 2721
+            },
+            "end": {
+              "line": 71,
+              "column": 23,
+              "position": 2728
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 78,
+              "column": 16,
+              "position": 3083
+            },
+            "end": {
+              "line": 78,
+              "column": 23,
+              "position": 3090
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 85,
+              "column": 16,
+              "position": 3453
+            },
+            "end": {
+              "line": 85,
+              "column": 23,
+              "position": 3460
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 92,
+              "column": 16,
+              "position": 3823
+            },
+            "end": {
+              "line": 92,
+              "column": 23,
+              "position": 3830
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'boolean' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 113,
+              "column": 16,
+              "position": 4693
+            },
+            "end": {
+              "line": 113,
+              "column": 23,
+              "position": 4700
+            }
+          }
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'boolean' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 114,
+              "column": 16,
+              "position": 4722
+            },
+            "end": {
+              "line": 114,
+              "column": 23,
+              "position": 4729
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "EXAMPLE_SCHEMA_FAILURE",
+          "message": "Example does not conform to schema: !_PERF_!",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 704,
+              "column": 24,
+              "position": 50162
+            },
+            "end": {
+              "line": 704,
+              "column": 31,
+              "position": 50169
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 29,
+              "column": 16,
+              "position": 1000
+            },
+            "end": {
+              "line": 29,
+              "column": 23,
+              "position": 1007
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 36,
+              "column": 16,
+              "position": 1264
+            },
+            "end": {
+              "line": 36,
+              "column": 23,
+              "position": 1271
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 43,
+              "column": 16,
+              "position": 1556
+            },
+            "end": {
+              "line": 43,
+              "column": 23,
+              "position": 1563
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 50,
+              "column": 16,
+              "position": 1856
+            },
+            "end": {
+              "line": 50,
+              "column": 23,
+              "position": 1863
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INTEGER_EXPECTED",
+          "message": "integer is expected",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 57,
+              "column": 16,
+              "position": 2118
+            },
+            "end": {
+              "line": 57,
+              "column": 23,
+              "position": 2125
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 16,
+              "position": 2360
+            },
+            "end": {
+              "line": 64,
+              "column": 23,
+              "position": 2367
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 71,
+              "column": 16,
+              "position": 2721
+            },
+            "end": {
+              "line": 71,
+              "column": 23,
+              "position": 2728
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 78,
+              "column": 16,
+              "position": 3083
+            },
+            "end": {
+              "line": 78,
+              "column": 23,
+              "position": 3090
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 85,
+              "column": 16,
+              "position": 3453
+            },
+            "end": {
+              "line": 85,
+              "column": 23,
+              "position": 3460
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'number' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 92,
+              "column": 16,
+              "position": 3823
+            },
+            "end": {
+              "line": 92,
+              "column": 23,
+              "position": 3830
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'boolean' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 113,
+              "column": 16,
+              "position": 4693
+            },
+            "end": {
+              "line": 113,
+              "column": 23,
+              "position": 4700
+            }
+          }
+        },
+        {
+          "code": "TYPE_EXPECTED",
+          "message": "Expected type 'boolean' but got 'string'",
+          "path": "ratefinderapi.raml",
+          "range": {
+            "start": {
+              "line": 114,
+              "column": 16,
+              "position": 4722
+            },
+            "end": {
+              "line": 114,
+              "column": 23,
+              "position": 4729
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_0c40c1f8-fb92-4045-8fb9-3f6a50933380": {
+    "api_35857_ver_37433": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 177,
+              "column": 4,
+              "position": 8438
+            },
+            "end": {
+              "line": 177,
+              "column": 13,
+              "position": 8447
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 302,
+              "column": 14,
+              "position": 12609
+            },
+            "end": {
+              "line": 302,
+              "column": 21,
+              "position": 12616
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 362,
+              "column": 14,
+              "position": 14985
+            },
+            "end": {
+              "line": 362,
+              "column": 21,
+              "position": 14992
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "FORM_IN_RESPONSE",
+          "message": "Form related media types can not be used in responses",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 731,
+              "column": 10,
+              "position": 30075
+            },
+            "end": {
+              "line": 731,
+              "column": 29,
+              "position": 30094
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "FORM_IN_RESPONSE",
+          "message": "Form related media types can not be used in responses",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 761,
+              "column": 12,
+              "position": 30739
+            },
+            "end": {
+              "line": 761,
+              "column": 31,
+              "position": 30758
+            }
+          },
+          "isWarning": true
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "SECUREDBY_LIST_08",
+          "message": "'securedBy' should be a list in RAML08",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 177,
+              "column": 4,
+              "position": 8438
+            },
+            "end": {
+              "line": 177,
+              "column": 13,
+              "position": 8447
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 302,
+              "column": 14,
+              "position": 12609
+            },
+            "end": {
+              "line": 302,
+              "column": 21,
+              "position": 12616
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 362,
+              "column": 14,
+              "position": 14985
+            },
+            "end": {
+              "line": 362,
+              "column": 21,
+              "position": 14992
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "FORM_IN_RESPONSE",
+          "message": "Form related media types can not be used in responses",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 731,
+              "column": 10,
+              "position": 30075
+            },
+            "end": {
+              "line": 731,
+              "column": 29,
+              "position": 30094
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "FORM_IN_RESPONSE",
+          "message": "Form related media types can not be used in responses",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 761,
+              "column": 12,
+              "position": 30739
+            },
+            "end": {
+              "line": 761,
+              "column": 31,
+              "position": 30758
+            }
+          },
+          "isWarning": true
+        }
+      ]
+    }
+  },
+  "org_0ced2587-d3bd-4822-a99d-2800fc5e47fc": {
+    "api_73500_ver_76514": {
+      "oldParserErrors": "schema is not valid JSON error: 'Unexpected token 'r' at 5:4'",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_0e0ac4e3-6a90-4b22-9924-35f564e66868": {
+    "api_29566_ver_31415": {
+      "oldParserErrors": "cannot read /securitySchemes/lb_api_auth.raml (Error: ENOENT: no such file or directory, open '/securitySchemes/lb_api_auth.raml')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    },
+    "api_39618_ver_42070": {
+      "oldParserErrors": "cannot read /securitySchemes/lb_api_auth.raml (Error: ENOENT: no such file or directory, open '/securitySchemes/lb_api_auth.raml')",
+      "mastrerParserErrors": "none",
+      "inspectedParserErrors": "none"
+    }
+  },
+  "org_0e18a213-a0a3-4e64-99a9-0b8f7ffa8a68": {
+    "api_7009_ver_7048": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "VALUE_NOT_PROVIDED",
+          "message": "Value is not provided for parameter: 'exampleCollection'",
+          "path": "xchain-api.raml",
+          "range": {
+            "start": {
+              "line": 34,
+              "column": 4,
+              "position": 1241
+            },
+            "end": {
+              "line": 34,
+              "column": 14,
+              "position": 1251
+            }
+          }
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "xchain-include-monitor.schema",
+          "range": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "position": 185
+            },
+            "end": {
+              "line": 9,
+              "column": 5,
+              "position": 250
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 6,
+                  "column": 3,
+                  "position": 54
+                },
+                "end": {
+                  "line": 6,
+                  "column": 10,
+                  "position": 61
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'address'.",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "position": 190
+            },
+            "end": {
+              "line": 8,
+              "column": 16,
+              "position": 196
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'address'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 40,
+                  "column": 2,
+                  "position": 1475
+                },
+                "end": {
+                  "line": 40,
+                  "column": 7,
+                  "position": 1480
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 12,
+              "column": 23,
+              "position": 311
+            },
+            "end": {
+              "line": 12,
+              "column": 24,
+              "position": 312
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 22,
+              "column": 7,
+              "position": 514
+            },
+            "end": {
+              "line": 22,
+              "column": 8,
+              "position": 515
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 26,
+              "column": 23,
+              "position": 612
+            },
+            "end": {
+              "line": 26,
+              "column": 24,
+              "position": 613
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 7,
+              "column": 19,
+              "position": 186
+            },
+            "end": {
+              "line": 7,
+              "column": 20,
+              "position": 187
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 31,
+                  "column": 0,
+                  "position": 1105
+                },
+                "end": {
+                  "line": 31,
+                  "column": 10,
+                  "position": 1115
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'address'.",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 13,
+              "column": 6,
+              "position": 295
+            },
+            "end": {
+              "line": 13,
+              "column": 12,
+              "position": 301
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'address'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 31,
+                  "column": 0,
+                  "position": 1105
+                },
+                "end": {
+                  "line": 31,
+                  "column": 10,
+                  "position": 1115
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 14,
+              "column": 6,
+              "position": 343
+            },
+            "end": {
+              "line": 14,
+              "column": 13,
+              "position": 350
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 15,
+                  "column": 0,
+                  "position": 526
+                },
+                "end": {
+                  "line": 15,
+                  "column": 9,
+                  "position": 535
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'send'.",
+          "path": "xchain-include-resourcetype-create-only.raml",
+          "range": {
+            "start": {
+              "line": 5,
+              "column": 6,
+              "position": 136
+            },
+            "end": {
+              "line": 5,
+              "column": 12,
+              "position": 142
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'send'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 57,
+                  "column": 2,
+                  "position": 1972
+                },
+                "end": {
+                  "line": 57,
+                  "column": 21,
+                  "position": 1991
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'send'.",
+          "path": "xchain-include-resourcetype-read-only-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "position": 190
+            },
+            "end": {
+              "line": 8,
+              "column": 16,
+              "position": 196
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'send'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 2,
+                  "position": 2204
+                },
+                "end": {
+                  "line": 64,
+                  "column": 11,
+                  "position": 2213
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "VALUE_NOT_PROVIDED",
+          "message": "Value is not provided for parameter: 'exampleCollection'",
+          "path": "xchain-api.raml",
+          "range": {
+            "start": {
+              "line": 34,
+              "column": 4,
+              "position": 1241
+            },
+            "end": {
+              "line": 34,
+              "column": 14,
+              "position": 1251
+            }
+          }
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "xchain-include-monitor.schema",
+          "range": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "position": 185
+            },
+            "end": {
+              "line": 9,
+              "column": 5,
+              "position": 250
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 6,
+                  "column": 3,
+                  "position": 54
+                },
+                "end": {
+                  "line": 6,
+                  "column": 10,
+                  "position": 61
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'address'.",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "position": 190
+            },
+            "end": {
+              "line": 8,
+              "column": 16,
+              "position": 196
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'address'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 40,
+                  "column": 2,
+                  "position": 1475
+                },
+                "end": {
+                  "line": 40,
+                  "column": 7,
+                  "position": 1480
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 12,
+              "column": 23,
+              "position": 311
+            },
+            "end": {
+              "line": 12,
+              "column": 24,
+              "position": 312
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 22,
+              "column": 7,
+              "position": 514
+            },
+            "end": {
+              "line": 22,
+              "column": 8,
+              "position": 515
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+          "path": "xchain-include-resourcetype-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 26,
+              "column": 23,
+              "position": 612
+            },
+            "end": {
+              "line": 26,
+              "column": 24,
+              "position": 613
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '''",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 24,
+                  "column": 2,
+                  "position": 905
+                },
+                "end": {
+                  "line": 24,
+                  "column": 7,
+                  "position": 910
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 7,
+              "column": 19,
+              "position": 186
+            },
+            "end": {
+              "line": 7,
+              "column": 20,
+              "position": 187
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CAN_NOT_PARSE_JSON",
+              "message": "Can not parse JSON example: Cannot tokenize symbol '<'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 31,
+                  "column": 0,
+                  "position": 1105
+                },
+                "end": {
+                  "line": 31,
+                  "column": 10,
+                  "position": 1115
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'address'.",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 13,
+              "column": 6,
+              "position": 295
+            },
+            "end": {
+              "line": 13,
+              "column": 12,
+              "position": 301
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'address'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 31,
+                  "column": 0,
+                  "position": 1105
+                },
+                "end": {
+                  "line": 31,
+                  "column": 10,
+                  "position": 1115
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "xchain-include-resourcetype-collection.raml",
+          "range": {
+            "start": {
+              "line": 14,
+              "column": 6,
+              "position": 343
+            },
+            "end": {
+              "line": 14,
+              "column": 13,
+              "position": 350
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 15,
+                  "column": 0,
+                  "position": 526
+                },
+                "end": {
+                  "line": 15,
+                  "column": 9,
+                  "position": 535
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'send'.",
+          "path": "xchain-include-resourcetype-create-only.raml",
+          "range": {
+            "start": {
+              "line": 5,
+              "column": 6,
+              "position": 136
+            },
+            "end": {
+              "line": 5,
+              "column": 12,
+              "position": 142
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'send'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 57,
+                  "column": 2,
+                  "position": 1972
+                },
+                "end": {
+                  "line": 57,
+                  "column": 21,
+                  "position": 1991
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "UNRECOGNIZED_ELEMENT",
+          "message": "Unrecognized schema: 'send'.",
+          "path": "xchain-include-resourcetype-read-only-collection-item.raml",
+          "range": {
+            "start": {
+              "line": 8,
+              "column": 10,
+              "position": 190
+            },
+            "end": {
+              "line": 8,
+              "column": 16,
+              "position": 196
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "UNRECOGNIZED_ELEMENT",
+              "message": "Unrecognized schema: 'send'.",
+              "path": "xchain-api.raml",
+              "range": {
+                "start": {
+                  "line": 64,
+                  "column": 2,
+                  "position": 2204
+                },
+                "end": {
+                  "line": 64,
+                  "column": 11,
+                  "position": 2213
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_0e6ce12f-a74f-494f-9979-20832f2658bf": {
+    "api_23468_ver_24956": {
+      "oldParserErrors": "none",
+      "mastrerParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 15,
+              "column": 4,
+              "position": 445
+            },
+            "end": {
+              "line": 15,
+              "column": 16,
+              "position": 457
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "position": 627
+            },
+            "end": {
+              "line": 19,
+              "column": 25,
+              "position": 648
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 21,
+              "column": 4,
+              "position": 795
+            },
+            "end": {
+              "line": 21,
+              "column": 24,
+              "position": 815
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 22,
+              "column": 4,
+              "position": 870
+            },
+            "end": {
+              "line": 22,
+              "column": 25,
+              "position": 891
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 24,
+              "column": 4,
+              "position": 1008
+            },
+            "end": {
+              "line": 24,
+              "column": 23,
+              "position": 1027
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 25,
+              "column": 4,
+              "position": 1077
+            },
+            "end": {
+              "line": 25,
+              "column": 23,
+              "position": 1096
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 26,
+              "column": 4,
+              "position": 1146
+            },
+            "end": {
+              "line": 26,
+              "column": 21,
+              "position": 1163
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 4,
+              "position": 1280
+            },
+            "end": {
+              "line": 30,
+              "column": 6,
+              "position": 1282
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1619
+            },
+            "end": {
+              "line": 38,
+              "column": 13,
+              "position": 1626
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 59,
+              "column": 12,
+              "position": 2193
+            },
+            "end": {
+              "line": 59,
+              "column": 19,
+              "position": 2200
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 8,
+              "position": 2372
+            },
+            "end": {
+              "line": 64,
+              "column": 15,
+              "position": 2379
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 86,
+              "column": 14,
+              "position": 3164
+            },
+            "end": {
+              "line": 86,
+              "column": 21,
+              "position": 3171
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 8,
+              "position": 3429
+            },
+            "end": {
+              "line": 94,
+              "column": 15,
+              "position": 3436
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 100,
+              "column": 12,
+              "position": 3706
+            },
+            "end": {
+              "line": 100,
+              "column": 19,
+              "position": 3713
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 119,
+              "column": 10,
+              "position": 4386
+            },
+            "end": {
+              "line": 119,
+              "column": 17,
+              "position": 4393
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 127,
+              "column": 8,
+              "position": 4643
+            },
+            "end": {
+              "line": 127,
+              "column": 15,
+              "position": 4650
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+          "message": "Content is not valid according to schema: Expected type object but found type array",
+          "path": "examples/updateDeviceSubscriptionsRequest.sample",
+          "range": {
+            "start": {
+              "line": 0,
+              "column": 0,
+              "position": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 30,
+              "position": 30
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type object but found type array",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 75,
+                  "column": 10,
+                  "position": 2770
+                },
+                "end": {
+                  "line": 75,
+                  "column": 17,
+                  "position": 2777
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "schemas/device.schema",
+          "range": {
+            "start": {
+              "line": 17,
+              "column": 6,
+              "position": 434
+            },
+            "end": {
+              "line": 21,
+              "column": 7,
+              "position": 534
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 18,
+                  "column": 4,
+                  "position": 584
+                },
+                "end": {
+                  "line": 18,
+                  "column": 10,
+                  "position": 590
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ],
+      "inspectedParserErrors": [
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 15,
+              "column": 4,
+              "position": 445
+            },
+            "end": {
+              "line": 15,
+              "column": 16,
+              "position": 457
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 19,
+              "column": 4,
+              "position": 627
+            },
+            "end": {
+              "line": 19,
+              "column": 25,
+              "position": 648
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 21,
+              "column": 4,
+              "position": 795
+            },
+            "end": {
+              "line": 21,
+              "column": 24,
+              "position": 815
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 22,
+              "column": 4,
+              "position": 870
+            },
+            "end": {
+              "line": 22,
+              "column": 25,
+              "position": 891
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 24,
+              "column": 4,
+              "position": 1008
+            },
+            "end": {
+              "line": 24,
+              "column": 23,
+              "position": 1027
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 25,
+              "column": 4,
+              "position": 1077
+            },
+            "end": {
+              "line": 25,
+              "column": 23,
+              "position": 1096
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 26,
+              "column": 4,
+              "position": 1146
+            },
+            "end": {
+              "line": 26,
+              "column": 21,
+              "position": 1163
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "UNKNOWN_NODE",
+          "message": "Unknown node: ''",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 30,
+              "column": 4,
+              "position": 1280
+            },
+            "end": {
+              "line": 30,
+              "column": 6,
+              "position": 1282
+            }
+          }
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 38,
+              "column": 6,
+              "position": 1619
+            },
+            "end": {
+              "line": 38,
+              "column": 13,
+              "position": 1626
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 59,
+              "column": 12,
+              "position": 2193
+            },
+            "end": {
+              "line": 59,
+              "column": 19,
+              "position": 2200
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 64,
+              "column": 8,
+              "position": 2372
+            },
+            "end": {
+              "line": 64,
+              "column": 15,
+              "position": 2379
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 86,
+              "column": 14,
+              "position": 3164
+            },
+            "end": {
+              "line": 86,
+              "column": 21,
+              "position": 3171
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 94,
+              "column": 8,
+              "position": 3429
+            },
+            "end": {
+              "line": 94,
+              "column": 15,
+              "position": 3436
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 100,
+              "column": 12,
+              "position": 3706
+            },
+            "end": {
+              "line": 100,
+              "column": 19,
+              "position": 3713
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 119,
+              "column": 10,
+              "position": 4386
+            },
+            "end": {
+              "line": 119,
+              "column": 17,
+              "position": 4393
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CAN_NOT_PARSE_JSON",
+          "message": "Can not parse JSON example: Unexpected end of JSON input",
+          "path": "api.raml",
+          "range": {
+            "start": {
+              "line": 127,
+              "column": 8,
+              "position": 4643
+            },
+            "end": {
+              "line": 127,
+              "column": 15,
+              "position": 4650
+            }
+          },
+          "isWarning": true
+        },
+        {
+          "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+          "message": "Content is not valid according to schema: Expected type object but found type array",
+          "path": "examples/updateDeviceSubscriptionsRequest.sample",
+          "range": {
+            "start": {
+              "line": 0,
+              "column": 0,
+              "position": 0
+            },
+            "end": {
+              "line": 0,
+              "column": 30,
+              "position": 30
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "CONTENT_DOES_NOT_MATCH_THE_SCHEMA",
+              "message": "Content is not valid according to schema: Expected type object but found type array",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 75,
+                  "column": 10,
+                  "position": 2770
+                },
+                "end": {
+                  "line": 75,
+                  "column": 17,
+                  "position": 2777
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        },
+        {
+          "code": "INVALID_JSON_SCHEMA_DETAILS",
+          "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+          "path": "schemas/device.schema",
+          "range": {
+            "start": {
+              "line": 17,
+              "column": 6,
+              "position": 434
+            },
+            "end": {
+              "line": 21,
+              "column": 7,
+              "position": 534
+            }
+          },
+          "isWarning": true,
+          "trace": [
+            {
+              "code": "INVALID_JSON_SCHEMA_DETAILS",
+              "message": "Invalid JSON schema: Keyword 'required' is expected to be of type 'array'",
+              "path": "api.raml",
+              "range": {
+                "start": {
+                  "line": 18,
+                  "column": 4,
+                  "position": 584
+                },
+                "end": {
+                  "line": 18,
+                  "column": 10,
+                  "position": 590
+                }
+              },
+              "isWarning": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "org_0ea484d7-9d37-4901-9ef8-1498d989be4c": {
+    "api_11036_ver_11399": {
+      "diff": [
+        {
+          "path": "/errors[1]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Invalid JSON schema: Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "inspected": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'"
+        },
+        {
+          "path": "/errors[2]/trace[0]/message",
+          "comment": "Inequal values",
+          "master": "Invalid JSON schema: Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'",
+          "inspected": "Invalid JSON schema: Keyword 'type' is expected to be of type 'array,boolean,integer,number,null,object,string'"
+        }
+      ]
+    }
+  }
+}
